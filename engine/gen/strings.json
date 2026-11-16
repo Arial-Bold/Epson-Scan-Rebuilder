@@ -1,0 +1,372 @@
+{
+ "files": {
+  "imagecontrol": "Library/Image Capture/TWAIN Data Sources/EPSON Perfection V550.ds/Contents/PlugIns/Image Control.bundle/Contents/Resources/English.lproj/Localized.rsrc",
+  "multipagesavingus": "Library/Image Capture/TWAIN Data Sources/EPSON Perfection V550.ds/Contents/PlugIns/Multi Page Saving.bundle/Contents/Resources/American.lproj/Localized.rsrc",
+  "multipletiff": "Library/Image Capture/TWAIN Data Sources/EPSON Perfection V550.ds/Contents/PlugIns/File Format/Multiple TIFF.bundle/Contents/Resources/English.lproj/Localized.rsrc",
+  "pdf": "Library/Image Capture/TWAIN Data Sources/EPSON Perfection V550.ds/Contents/PlugIns/File Format/PDF.bundle/Contents/Resources/English.lproj/Localized.rsrc",
+  "scancontrol": "Library/Image Capture/TWAIN Data Sources/EPSON Perfection V550.ds/Contents/PlugIns/Scan Control.bundle/Contents/Resources/English.lproj/Localized.rsrc",
+  "ui": "Library/Image Capture/TWAIN Data Sources/EPSON Perfection V550.ds/Contents/PlugIns/UI.bundle/Contents/Resources/English.lproj/Localized.rsrc"
+ },
+ "strings": [
+  {
+   "macro": "ESS_SCANCONTROL_5000_52",
+   "tag": "scancontrol",
+   "id": 5000,
+   "index": 52,
+   "nl": "\n",
+   "fmt": false,
+   "lines": 0,
+   "rstrip": false
+  },
+  {
+   "macro": "ESS_UI_10008_78",
+   "tag": "ui",
+   "id": 10008,
+   "index": 78,
+   "nl": "\n",
+   "fmt": false,
+   "lines": 2,
+   "rstrip": false
+  },
+  {
+   "macro": "ESS_UI_10006_14",
+   "tag": "ui",
+   "id": 10006,
+   "index": 14,
+   "nl": "\n",
+   "fmt": false,
+   "lines": 0,
+   "rstrip": false
+  },
+  {
+   "macro": "ESS_IMAGECONTROL_5009_3",
+   "tag": "imagecontrol",
+   "id": 5009,
+   "index": 3,
+   "nl": "\r",
+   "fmt": true,
+   "lines": 0,
+   "rstrip": false
+  },
+  {
+   "macro": "ESS_UI_10008_15",
+   "tag": "ui",
+   "id": 10008,
+   "index": 15,
+   "nl": "\n",
+   "fmt": true,
+   "lines": 0,
+   "rstrip": false
+  },
+  {
+   "macro": "ESS_UI_10008_14",
+   "tag": "ui",
+   "id": 10008,
+   "index": 14,
+   "nl": "\n",
+   "fmt": true,
+   "lines": 0,
+   "rstrip": false
+  },
+  {
+   "macro": "ESS_UI_10008_31",
+   "tag": "ui",
+   "id": 10008,
+   "index": 31,
+   "nl": "\n",
+   "fmt": false,
+   "lines": 0,
+   "rstrip": false
+  },
+  {
+   "macro": "ESS_PDF_2001_7",
+   "tag": "pdf",
+   "id": 2001,
+   "index": 7,
+   "nl": "\n",
+   "fmt": false,
+   "lines": 1,
+   "rstrip": false
+  },
+  {
+   "macro": "ESS_PDF_2001_6",
+   "tag": "pdf",
+   "id": 2001,
+   "index": 6,
+   "nl": "\n",
+   "fmt": false,
+   "lines": 1,
+   "rstrip": false
+  },
+  {
+   "macro": "ESS_MULTIPLETIFF_2000_1",
+   "tag": "multipletiff",
+   "id": 2000,
+   "index": 1,
+   "nl": "\n",
+   "fmt": false,
+   "lines": 0,
+   "rstrip": false
+  },
+  {
+   "macro": "ESS_UI_10008_28",
+   "tag": "ui",
+   "id": 10008,
+   "index": 28,
+   "nl": "\n",
+   "fmt": false,
+   "lines": 0,
+   "rstrip": false
+  },
+  {
+   "macro": "ESS_UI_10008_29",
+   "tag": "ui",
+   "id": 10008,
+   "index": 29,
+   "nl": "\n",
+   "fmt": false,
+   "lines": 0,
+   "rstrip": false
+  },
+  {
+   "macro": "ESS_MULTIPAGESAVINGUS_128_9",
+   "tag": "multipagesavingus",
+   "id": 128,
+   "index": 9,
+   "nl": "\n",
+   "fmt": false,
+   "lines": 0,
+   "rstrip": false
+  },
+  {
+   "macro": "ESS_MULTIPAGESAVINGUS_128_10",
+   "tag": "multipagesavingus",
+   "id": 128,
+   "index": 10,
+   "nl": "\n",
+   "fmt": false,
+   "lines": 0,
+   "rstrip": false
+  },
+  {
+   "macro": "ESS_MULTIPAGESAVINGUS_128_18",
+   "tag": "multipagesavingus",
+   "id": 128,
+   "index": 18,
+   "nl": "\n",
+   "fmt": false,
+   "lines": 0,
+   "rstrip": false
+  },
+  {
+   "macro": "ESS_MULTIPAGESAVINGUS_129_1",
+   "tag": "multipagesavingus",
+   "id": 129,
+   "index": 1,
+   "nl": "\n",
+   "fmt": false,
+   "lines": 0,
+   "rstrip": false
+  },
+  {
+   "macro": "ESS_MULTIPAGESAVINGUS_129_2",
+   "tag": "multipagesavingus",
+   "id": 129,
+   "index": 2,
+   "nl": "\n",
+   "fmt": false,
+   "lines": 0,
+   "rstrip": false
+  },
+  {
+   "macro": "ESS_UI_10008_7",
+   "tag": "ui",
+   "id": 10008,
+   "index": 7,
+   "nl": "\n",
+   "fmt": false,
+   "lines": 0,
+   "rstrip": false
+  },
+  {
+   "macro": "ESS_UI_10008_27",
+   "tag": "ui",
+   "id": 10008,
+   "index": 27,
+   "nl": "\n",
+   "fmt": false,
+   "lines": 1,
+   "rstrip": false
+  },
+  {
+   "macro": "ESS_PDF_2004_4",
+   "tag": "pdf",
+   "id": 2004,
+   "index": 4,
+   "nl": "\n",
+   "fmt": false,
+   "lines": 0,
+   "rstrip": false
+  },
+  {
+   "macro": "ESS_SCANCONTROL_5000_39",
+   "tag": "scancontrol",
+   "id": 5000,
+   "index": 39,
+   "nl": "\n",
+   "fmt": false,
+   "lines": 0,
+   "rstrip": false
+  },
+  {
+   "macro": "ESS_SCANCONTROL_5000_59",
+   "tag": "scancontrol",
+   "id": 5000,
+   "index": 59,
+   "nl": "\n",
+   "fmt": false,
+   "lines": 0,
+   "rstrip": false
+  },
+  {
+   "macro": "ESS_UI_10008_43",
+   "tag": "ui",
+   "id": 10008,
+   "index": 43,
+   "nl": "\n",
+   "fmt": false,
+   "lines": 2,
+   "rstrip": true
+  },
+  {
+   "macro": "ESS_UI_10008_46",
+   "tag": "ui",
+   "id": 10008,
+   "index": 46,
+   "nl": "\n",
+   "fmt": false,
+   "lines": 2,
+   "rstrip": true
+  },
+  {
+   "macro": "ESS_UI_10008_47",
+   "tag": "ui",
+   "id": 10008,
+   "index": 47,
+   "nl": "\n",
+   "fmt": false,
+   "lines": 0,
+   "rstrip": false
+  },
+  {
+   "macro": "ESS_PDF_2004_5",
+   "tag": "pdf",
+   "id": 2004,
+   "index": 5,
+   "nl": "\n",
+   "fmt": false,
+   "lines": 0,
+   "rstrip": false
+  },
+  {
+   "macro": "ESS_UI_10008_27_V1",
+   "tag": "ui",
+   "id": 10008,
+   "index": 27,
+   "nl": "\n",
+   "fmt": false,
+   "lines": 0,
+   "rstrip": false
+  },
+  {
+   "macro": "ESS_UI_10008_19",
+   "tag": "ui",
+   "id": 10008,
+   "index": 19,
+   "nl": "\n",
+   "fmt": false,
+   "lines": 0,
+   "rstrip": false
+  },
+  {
+   "macro": "ESS_UI_10008_9",
+   "tag": "ui",
+   "id": 10008,
+   "index": 9,
+   "nl": "\n",
+   "fmt": false,
+   "lines": 0,
+   "rstrip": false
+  },
+  {
+   "macro": "ESS_UI_10003_11",
+   "tag": "ui",
+   "id": 10003,
+   "index": 11,
+   "nl": "\n",
+   "fmt": false,
+   "lines": 0,
+   "rstrip": false
+  },
+  {
+   "macro": "ESS_UI_10008_26",
+   "tag": "ui",
+   "id": 10008,
+   "index": 26,
+   "nl": "\n",
+   "fmt": false,
+   "lines": 0,
+   "rstrip": false
+  },
+  {
+   "macro": "ESS_UI_10008_4",
+   "tag": "ui",
+   "id": 10008,
+   "index": 4,
+   "nl": "\n",
+   "fmt": false,
+   "lines": 0,
+   "rstrip": false
+  },
+  {
+   "macro": "ESS_UI_10008_69",
+   "tag": "ui",
+   "id": 10008,
+   "index": 69,
+   "nl": "\n",
+   "fmt": false,
+   "lines": 0,
+   "rstrip": false
+  },
+  {
+   "macro": "ESS_UI_10008_70",
+   "tag": "ui",
+   "id": 10008,
+   "index": 70,
+   "nl": "\n",
+   "fmt": false,
+   "lines": 0,
+   "rstrip": false
+  },
+  {
+   "macro": "ESS_UI_10008_71",
+   "tag": "ui",
+   "id": 10008,
+   "index": 71,
+   "nl": "\n",
+   "fmt": false,
+   "lines": 0,
+   "rstrip": false
+  },
+  {
+   "macro": "ESS_UI_10008_72",
+   "tag": "ui",
+   "id": 10008,
+   "index": 72,
+   "nl": "\n",
+   "fmt": false,
+   "lines": 0,
+   "rstrip": false
+  }
+ ]
+}

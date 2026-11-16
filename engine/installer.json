@@ -1,0 +1,572 @@
+{
+ "product": "Epson Scan 3.9.4 for the Perfection V550 (PERV550_WW_OSX_3940_41.dmg)",
+ "hashes": {
+  "Applications/Epson Software/EPSON Scan.app/Contents/Resources/BundleIcon.icns": "cd854c935ed9b69b89e1baee893691400418170fc66fe93988bd5e83ace43984",
+  "Library/ColorSync/Profiles/PERV550F.ICC": "c13516f0e24d0fb9534c62ce135efea3f049e7cff33866c10a770e5d5dce6a19",
+  "Library/ColorSync/Profiles/PERV550R.ICC": "c3fe96d7249bec46d70c698704376cf3538bd05f1e5ea929ccd1a2353443e800",
+  "Library/Image Capture/TWAIN Data Sources/EPSON Perfection V550.ds/Contents/PlugIns/DTR.bundle/Contents/MacOS/DTR": "f803df347c3a72645303a877ff5cac3b20510c1fa7533d5c657aa9955c2ddf1f",
+  "Library/Image Capture/TWAIN Data Sources/EPSON Perfection V550.ds/Contents/PlugIns/DTR2.bundle/Contents/MacOS/DTR2": "3afb876e1c4c2ba90fbe9192642d271f0bced9a23ed802db2941fec651c4e3c3",
+  "Library/Image Capture/TWAIN Data Sources/EPSON Perfection V550.ds/Contents/PlugIns/Digital ICE.bundle/Contents/MacOS/Digital ICE": "6ad879176cbaacb21c238358761d51064df55f43fca2607a1a3824514bd315c5",
+  "Library/Image Capture/TWAIN Data Sources/EPSON Perfection V550.ds/Contents/PlugIns/ES00EB.dti": "e580e9fec38aeac0dacbca06399e71d1c94ee9b03ee785f83680b743a5ea53a3",
+  "Library/Image Capture/TWAIN Data Sources/EPSON Perfection V550.ds/Contents/PlugIns/EsDDC.bundle/Contents/MacOS/EsDDC": "1ef83baa2bbd9d2c013ca00352c3cb1a70873051e19fbe63c204121985befbb7",
+  "Library/Image Capture/TWAIN Data Sources/EPSON Perfection V550.ds/Contents/PlugIns/EsDDC.bundle/Contents/MacOS/EsDDC.prm": "52676593613872322e9e14c6b2d4b05704b721ba9585614eef4c6bb168d05336",
+  "Library/Image Capture/TWAIN Data Sources/EPSON Perfection V550.ds/Contents/PlugIns/EsDDE.bundle/Contents/MacOS/EsDDE": "a2c1c4bbe04e3b2c0ab951f1cae1b925a5a5f67f3d24db965589d5142c67695b",
+  "Library/Image Capture/TWAIN Data Sources/EPSON Perfection V550.ds/Contents/PlugIns/EsDDE.bundle/Contents/MacOS/EsDDE.prm": "fc471154291553856d806dc0c9bdb437ac758a678147181a41bbc9f1d96d4023",
+  "Library/Image Capture/TWAIN Data Sources/EPSON Perfection V550.ds/Contents/PlugIns/FIT.bundle/Contents/MacOS/FIT": "bfb57d74ee0405ea3557a79c2481a0f232e6f5171681484315adb0366932c55a",
+  "Library/Image Capture/TWAIN Data Sources/EPSON Perfection V550.ds/Contents/PlugIns/File Format/PDFLib.bundle/Contents/MacOS/PDFLib": "81d587284e779973a8b5031ea83a5f297a8aae5eb26e065a01acb5a3f3d09c75",
+  "Library/Image Capture/TWAIN Data Sources/EPSON Perfection V550.ds/Contents/PlugIns/File Format/PIM JPEG Support.bundle/Contents/MacOS/PIM JPEG Support": "f58c925e3d3a4e71ba2f9bfa3620be58cd5ac9b3dbe3ac47902bd865c1ac728e",
+  "Library/Image Capture/TWAIN Data Sources/EPSON Perfection V550.ds/Contents/PlugIns/File Format/PIM TIFF Support.bundle/Contents/MacOS/PIM TIFF Support": "2faf9621d20d09a3c146a2be8840e29ea12307f35934e49f454ce955aced2eb3",
+  "Library/Image Capture/TWAIN Data Sources/EPSON Perfection V550.ds/Contents/PlugIns/Image Control.bundle/Contents/MacOS/Image Control": "24a63a0e5cf5d5be99bd0871e1705feb7e17b364588c549f919a089a97185582",
+  "Library/Image Capture/TWAIN Data Sources/EPSON Perfection V550.ds/Contents/PlugIns/Image Filter.bundle/Contents/MacOS/Image Filter": "d61af11fda4d36d5e2dfac864b91b383380c81c84af73dcee478e4f4604d925e",
+  "Library/Image Capture/TWAIN Data Sources/EPSON Perfection V550.ds/Contents/PlugIns/UI.bundle/Contents/MacOS/UI": "1bbddf2e838b98a7d62670d7791591ae32449e3f09e3487b080f3549f737df6a",
+  "Library/Image Capture/TWAIN Data Sources/EPSON Perfection V550.ds/Contents/Resources/essys/EPSON Scan ES00EB HRD": "c47dd34c1c6812f9a6b1a9676868346ce3fd65adb973099cadfed6110b86e9cc"
+ },
+ "copies": {
+  "DTR2_i386": [
+   "Library/Image Capture/TWAIN Data Sources/EPSON Perfection V550.ds/Contents/PlugIns/DTR2.bundle/Contents/MacOS/DTR2",
+   "thin"
+  ],
+  "DTR_i386": [
+   "Library/Image Capture/TWAIN Data Sources/EPSON Perfection V550.ds/Contents/PlugIns/DTR.bundle/Contents/MacOS/DTR",
+   "thin"
+  ],
+  "DigitalICE_i386": [
+   "Library/Image Capture/TWAIN Data Sources/EPSON Perfection V550.ds/Contents/PlugIns/Digital ICE.bundle/Contents/MacOS/Digital ICE",
+   "thin"
+  ],
+  "EsDDC_i386": [
+   "Library/Image Capture/TWAIN Data Sources/EPSON Perfection V550.ds/Contents/PlugIns/EsDDC.bundle/Contents/MacOS/EsDDC",
+   "thin"
+  ],
+  "EsDDE_i386": [
+   "Library/Image Capture/TWAIN Data Sources/EPSON Perfection V550.ds/Contents/PlugIns/EsDDE.bundle/Contents/MacOS/EsDDE",
+   "thin"
+  ],
+  "FIT_i386": [
+   "Library/Image Capture/TWAIN Data Sources/EPSON Perfection V550.ds/Contents/PlugIns/FIT.bundle/Contents/MacOS/FIT",
+   "thin"
+  ],
+  "ImageControl_i386": [
+   "Library/Image Capture/TWAIN Data Sources/EPSON Perfection V550.ds/Contents/PlugIns/Image Control.bundle/Contents/MacOS/Image Control",
+   "thin"
+  ],
+  "ImageFilter_i386": [
+   "Library/Image Capture/TWAIN Data Sources/EPSON Perfection V550.ds/Contents/PlugIns/Image Filter.bundle/Contents/MacOS/Image Filter",
+   "thin"
+  ],
+  "PDFLib_i386": [
+   "Library/Image Capture/TWAIN Data Sources/EPSON Perfection V550.ds/Contents/PlugIns/File Format/PDFLib.bundle/Contents/MacOS/PDFLib",
+   "thin"
+  ],
+  "PIMJPEGSupport_i386": [
+   "Library/Image Capture/TWAIN Data Sources/EPSON Perfection V550.ds/Contents/PlugIns/File Format/PIM JPEG Support.bundle/Contents/MacOS/PIM JPEG Support",
+   "thin"
+  ],
+  "PIMTIFFSupport_i386": [
+   "Library/Image Capture/TWAIN Data Sources/EPSON Perfection V550.ds/Contents/PlugIns/File Format/PIM TIFF Support.bundle/Contents/MacOS/PIM TIFF Support",
+   "thin"
+  ],
+  "UI_i386": [
+   "Library/Image Capture/TWAIN Data Sources/EPSON Perfection V550.ds/Contents/PlugIns/UI.bundle/Contents/MacOS/UI",
+   "thin"
+  ],
+  "ES00EB.dti": [
+   "Library/Image Capture/TWAIN Data Sources/EPSON Perfection V550.ds/Contents/PlugIns/ES00EB.dti",
+   "copy"
+  ],
+  "EsDDC.prm": [
+   "Library/Image Capture/TWAIN Data Sources/EPSON Perfection V550.ds/Contents/PlugIns/EsDDC.bundle/Contents/MacOS/EsDDC.prm",
+   "copy"
+  ],
+  "EsDDE.prm": [
+   "Library/Image Capture/TWAIN Data Sources/EPSON Perfection V550.ds/Contents/PlugIns/EsDDE.bundle/Contents/MacOS/EsDDE.prm",
+   "copy"
+  ],
+  "PERV550F.ICC": [
+   "Library/ColorSync/Profiles/PERV550F.ICC",
+   "copy"
+  ],
+  "PERV550R.ICC": [
+   "Library/ColorSync/Profiles/PERV550R.ICC",
+   "copy"
+  ],
+  "AppIcon.icns": [
+   "Applications/Epson Software/EPSON Scan.app/Contents/Resources/BundleIcon.icns",
+   "copy"
+  ]
+ },
+ "help": "Library/Image Capture/TWAIN Data Sources/EPSON Perfection V550.ds/Contents/Resources/Help/File Format Help/Contents/Resources/English.lproj",
+ "hrd": "Library/Image Capture/TWAIN Data Sources/EPSON Perfection V550.ds/Contents/Resources/essys/EPSON Scan ES00EB HRD",
+ "art_files": {
+  "ui": "Library/Image Capture/TWAIN Data Sources/EPSON Perfection V550.ds/Contents/PlugIns/UI.bundle/Contents/Resources/UI.rsrc",
+  "ic": "Library/Image Capture/TWAIN Data Sources/EPSON Perfection V550.ds/Contents/PlugIns/Image Control.bundle/Contents/Resources/Image Control.rsrc",
+  "mps": "Library/Image Capture/TWAIN Data Sources/EPSON Perfection V550.ds/Contents/PlugIns/Multi Page Saving.bundle/Contents/Resources/Multi Page Saving.rsrc"
+ },
+ "art": {
+  "cicn_10000.png": [
+   "ui",
+   "cicn",
+   10000
+  ],
+  "cicn_10001.png": [
+   "ui",
+   "cicn",
+   10001
+  ],
+  "cicn_10003.png": [
+   "ui",
+   "cicn",
+   10003
+  ],
+  "cicn_10004.png": [
+   "ui",
+   "cicn",
+   10004
+  ],
+  "cicn_10008.png": [
+   "ui",
+   "cicn",
+   10008
+  ],
+  "cicn_10009.png": [
+   "ui",
+   "cicn",
+   10009
+  ],
+  "cicn_10010.png": [
+   "ui",
+   "cicn",
+   10010
+  ],
+  "cicn_10011.png": [
+   "ui",
+   "cicn",
+   10011
+  ],
+  "cicn_10012.png": [
+   "ui",
+   "cicn",
+   10012
+  ],
+  "cicn_10013.png": [
+   "ui",
+   "cicn",
+   10013
+  ],
+  "cicn_10014.png": [
+   "ui",
+   "cicn",
+   10014
+  ],
+  "cicn_10015.png": [
+   "ui",
+   "cicn",
+   10015
+  ],
+  "cicn_10016.png": [
+   "ui",
+   "cicn",
+   10016
+  ],
+  "cicn_10017.png": [
+   "ui",
+   "cicn",
+   10017
+  ],
+  "cicn_10018.png": [
+   "ui",
+   "cicn",
+   10018
+  ],
+  "cicn_10019.png": [
+   "ui",
+   "cicn",
+   10019
+  ],
+  "cicn_10020.png": [
+   "ui",
+   "cicn",
+   10020
+  ],
+  "cicn_10021.png": [
+   "ui",
+   "cicn",
+   10021
+  ],
+  "cicn_10022.png": [
+   "ui",
+   "cicn",
+   10022
+  ],
+  "cicn_10023.png": [
+   "ui",
+   "cicn",
+   10023
+  ],
+  "cicn_10024.png": [
+   "ui",
+   "cicn",
+   10024
+  ],
+  "cicn_10025.png": [
+   "ui",
+   "cicn",
+   10025
+  ],
+  "cicn_10027.png": [
+   "ui",
+   "cicn",
+   10027
+  ],
+  "cicn_10028.png": [
+   "ui",
+   "cicn",
+   10028
+  ],
+  "cicn_10029.png": [
+   "ui",
+   "cicn",
+   10029
+  ],
+  "cicn_10030.png": [
+   "ui",
+   "cicn",
+   10030
+  ],
+  "cicn_10031.png": [
+   "ui",
+   "cicn",
+   10031
+  ],
+  "cicn_10032.png": [
+   "ui",
+   "cicn",
+   10032
+  ],
+  "cicn_10036.png": [
+   "ui",
+   "cicn",
+   10036
+  ],
+  "cicn_10037.png": [
+   "ui",
+   "cicn",
+   10037
+  ],
+  "cicn_10040.png": [
+   "ui",
+   "cicn",
+   10040
+  ],
+  "cicn_10041.png": [
+   "ui",
+   "cicn",
+   10041
+  ],
+  "cicn_10042.png": [
+   "ui",
+   "cicn",
+   10042
+  ],
+  "cicn_10043.png": [
+   "ui",
+   "cicn",
+   10043
+  ],
+  "cicn_257.png": [
+   "ic",
+   "cicn",
+   257
+  ],
+  "cicn_258.png": [
+   "ic",
+   "cicn",
+   258
+  ],
+  "cicn_259.png": [
+   "ic",
+   "cicn",
+   259
+  ],
+  "cicn_260.png": [
+   "ic",
+   "cicn",
+   260
+  ],
+  "cicn_261.png": [
+   "ic",
+   "cicn",
+   261
+  ],
+  "cicn_262.png": [
+   "ic",
+   "cicn",
+   262
+  ],
+  "cicn_4000.png": [
+   "ic",
+   "cicn",
+   4000
+  ],
+  "cicn_4001.png": [
+   "ic",
+   "cicn",
+   4001
+  ],
+  "cicn_4002.png": [
+   "ic",
+   "cicn",
+   4002
+  ],
+  "cicn_4003.png": [
+   "ic",
+   "cicn",
+   4003
+  ],
+  "cicn_4004.png": [
+   "ic",
+   "cicn",
+   4004
+  ],
+  "cicn_4005.png": [
+   "ic",
+   "cicn",
+   4005
+  ],
+  "cicn_4009.png": [
+   "ic",
+   "cicn",
+   4009
+  ],
+  "cicn_4010.png": [
+   "ic",
+   "cicn",
+   4010
+  ],
+  "cicn_4011.png": [
+   "ic",
+   "cicn",
+   4011
+  ],
+  "cicn_4012.png": [
+   "ic",
+   "cicn",
+   4012
+  ],
+  "cicn_4013.png": [
+   "ic",
+   "cicn",
+   4013
+  ],
+  "cicn_4014.png": [
+   "ic",
+   "cicn",
+   4014
+  ],
+  "cicn_4015.png": [
+   "ic",
+   "cicn",
+   4015
+  ],
+  "cicn_4016.png": [
+   "ic",
+   "cicn",
+   4016
+  ],
+  "cicn_4017.png": [
+   "ic",
+   "cicn",
+   4017
+  ],
+  "mps_1280.png": [
+   "mps",
+   "icl8",
+   1280
+  ],
+  "mps_1290.png": [
+   "mps",
+   "icl8",
+   1290
+  ],
+  "mps_1300.png": [
+   "mps",
+   "icl8",
+   1300
+  ],
+  "mps_1301.png": [
+   "mps",
+   "icl8",
+   1301
+  ],
+  "mps_1302.png": [
+   "mps",
+   "icl8",
+   1302
+  ],
+  "mps_131.png": [
+   "mps",
+   "icl8",
+   131
+  ],
+  "mps_132.png": [
+   "mps",
+   "icl8",
+   132
+  ],
+  "mps_133.png": [
+   "mps",
+   "icl8",
+   133
+  ],
+  "pict_10000.png": [
+   "ui",
+   "PICT",
+   10000
+  ],
+  "pict_10001.png": [
+   "ui",
+   "PICT",
+   10001
+  ],
+  "pict_10002.png": [
+   "ui",
+   "PICT",
+   10002
+  ],
+  "pict_3007.png": [
+   "ic",
+   "PICT",
+   3007
+  ],
+  "pict_3008.png": [
+   "ic",
+   "PICT",
+   3008
+  ],
+  "pict_3009.png": [
+   "ic",
+   "PICT",
+   3009
+  ],
+  "pict_3010.png": [
+   "ic",
+   "PICT",
+   3010
+  ],
+  "pict_3011.png": [
+   "ic",
+   "PICT",
+   3011
+  ],
+  "pict_3012.png": [
+   "ic",
+   "PICT",
+   3012
+  ],
+  "pict_3013.png": [
+   "ic",
+   "PICT",
+   3013
+  ],
+  "pict_3014.png": [
+   "ic",
+   "PICT",
+   3014
+  ],
+  "pict_3015.png": [
+   "ic",
+   "PICT",
+   3015
+  ],
+  "pict_3016.png": [
+   "ic",
+   "PICT",
+   3016
+  ],
+  "pict_3017.png": [
+   "ic",
+   "PICT",
+   3017
+  ],
+  "pict_3018.png": [
+   "ic",
+   "PICT",
+   3018
+  ],
+  "pict_3019.png": [
+   "ic",
+   "PICT",
+   3019
+  ],
+  "pict_3020.png": [
+   "ic",
+   "PICT",
+   3020
+  ],
+  "pict_3021.png": [
+   "ic",
+   "PICT",
+   3021
+  ],
+  "pict_3022.png": [
+   "ic",
+   "PICT",
+   3022
+  ],
+  "pict_3023.png": [
+   "ic",
+   "PICT",
+   3023
+  ],
+  "ui_257.png": [
+   "ui",
+   "cicn",
+   257
+  ],
+  "ui_258.png": [
+   "ui",
+   "cicn",
+   258
+  ],
+  "ui_259.png": [
+   "ui",
+   "cicn",
+   259
+  ],
+  "ui_260.png": [
+   "ui",
+   "cicn",
+   260
+  ],
+  "ui_261.png": [
+   "ui",
+   "cicn",
+   261
+  ],
+  "ui_262.png": [
+   "ui",
+   "cicn",
+   262
+  ],
+  "ui_263.png": [
+   "ui",
+   "cicn",
+   263
+  ],
+  "ui_264.png": [
+   "ui",
+   "cicn",
+   264
+  ],
+  "ui_265.png": [
+   "ui",
+   "cicn",
+   265
+  ],
+  "ui_266.png": [
+   "ui",
+   "cicn",
+   266
+  ]
+ }
+}
