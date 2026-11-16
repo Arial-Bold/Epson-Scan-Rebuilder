@@ -1,0 +1,7 @@
+build/
+__pycache__/
+*.pyc
+.DS_Store
+# never commit Epson's installer or anything made from it
+*.dmg
+*.pkg
