@@ -243,15 +243,24 @@ def cmd_build(src, out_dir, compile_app=True):
             shutil.move(app, dst)
             say('DONE', dst)
             return 0
+        benv = dict(os.environ)
+        benv['PATH'] = '/usr/bin:/bin:/usr/sbin:/sbin:' + benv.get('PATH', '')
+        if not benv.get('SDKROOT') and shutil.which('xcrun'):
+            # the compiler needs to know where the macOS SDK is when it isn't run through /usr/bin
+            sdk = subprocess.run(['xcrun', '--sdk', 'macosx', '--show-sdk-path'], capture_output=True, text=True)
+            if sdk.returncode == 0 and sdk.stdout.strip():
+                benv['SDKROOT'] = sdk.stdout.strip()
+                say('LOG', 'macOS SDK: ' + benv['SDKROOT'])
         p = subprocess.Popen(['sh', 'build_app.sh'], cwd=app, stdout=subprocess.PIPE, stderr=subprocess.STDOUT,
-                             text=True)
+                             text=True, env=benv)
         tail = []
         for line in p.stdout:
             line = line.rstrip()
-            tail = (tail + [line])[-30:]
+            tail = (tail + [line])[-400:]
             say('LOG', line)
         if p.wait():
-            say('FAIL', 'The compiler stopped:\n' + '\n'.join(tail[-12:]))
+            errors = [l for l in tail if 'error' in l.lower()]
+            say('FAIL', 'The compiler stopped:\n' + '\n'.join((errors or tail)[-20:]))
             return 1
         built = os.path.join(app, 'build', 'EPSON Scan.app')
         os.makedirs(out_dir, exist_ok=True)
