@@ -173,7 +173,7 @@ static NSGradient *AquaWhite(BOOL pressed)
     switch (self.kind) {
     case AQPopup: {
         NSBezierPath *body = [NSBezierPath bezierPathWithRoundedRect:b xRadius:4 yRadius:4];
-        BOOL arrowOnly = self.text.length == 0 && b.size.width < 30;
+        BOOL arrowOnly = self.arrowOnly || (self.text.length == 0 && b.size.width < 30);
         if (!arrowOnly) {
             [AquaWhite(self.pressed) drawInBezierPath:body angle:90];
         }
@@ -182,7 +182,7 @@ static NSGradient *AquaWhite(BOOL pressed)
         [AquaBlue(self.pressed) drawInBezierPath:capPath angle:90];
         [edge setStroke]; [body stroke];
         [self drawUpDownArrowsIn:cap color:NSColor.whiteColor];
-        [self drawText:self.text at:NSMakePoint(b.origin.x + 8, 0) size:11 center:NO inRect:b];
+        if (!arrowOnly) [self drawText:self.text at:NSMakePoint(b.origin.x + 8, 0) size:11 center:NO inRect:b];
         break;
     }
     case AQButton: {
@@ -4057,7 +4057,8 @@ static void ESSetMenu(NSView *v, NSArray<NSString *> *items)
     if ([v isKindOfClass:[AQControl class]]) {
         AQControl *c = (AQControl *)v;
         c.menuItems = items;
-        if (![items containsObject:c.text]) c.text = items.firstObject;
+        if (c.arrowOnly) c.text = @"";   /* a menu button beside a field keeps showing only its arrow */
+        else if (![items containsObject:c.text]) c.text = items.firstObject;
         [c setNeedsDisplay:YES];
     } else if ([v isKindOfClass:[NSPopUpButton class]]) {
         NSPopUpButton *p = (NSPopUpButton *)v;
