@@ -13,25 +13,21 @@ permissions:
   contents: write
 
 jobs:
-  check-engine:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.9'        # the Python that comes with Apple's Command Line Tools
-      - name: Engine scripts compile
-        run: python -m compileall -q engine
-      - name: Engine refuses a file that isn't Epson's installer
-        run: |
-          echo "not a disk image" > not-epson.pkg
-          python engine/build.py check not-epson.pkg | tee out.txt
-          grep -q "^CHECK wrong" out.txt
-
   build-builder:
     runs-on: macos-14
     steps:
       - uses: actions/checkout@v4
+      # Apple's own Python (from the Command Line Tools), the one the builder uses on people's Macs
+      - name: Engine scripts compile with Apple's Python
+        run: |
+          PY="$(xcode-select -p)/usr/bin/python3"
+          "$PY" --version
+          "$PY" -m compileall -q engine
+      - name: Engine refuses a file that isn't Epson's installer
+        run: |
+          echo "not a disk image" > not-epson.pkg
+          "$(xcode-select -p)/usr/bin/python3" engine/build.py check not-epson.pkg | tee out.txt
+          grep -q "^CHECK wrong" out.txt
       - name: Build "Scanner App Builder.app"
         run: sh build_builder.sh
       - name: Keep the zip
