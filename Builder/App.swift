@@ -25,6 +25,8 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         window = NSWindow(contentRect: NSRect(x: 0, y: 0, width: 720, height: 468),
                           styleMask: [.titled, .closable, .miniaturizable], backing: .buffered, defer: false)
         window.title = "Scanner App Builder"
+        // the builder's screens are designed light (as in the mockup), also when the Mac uses Dark Mode
+        window.appearance = NSAppearance(named: .aqua)
         window.contentView = NSHostingView(rootView: RootView(model: model))
         window.center()
         window.makeKeyAndOrderFront(nil)

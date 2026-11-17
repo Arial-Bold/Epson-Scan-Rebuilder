@@ -4,6 +4,7 @@ import SwiftUI
 let accent = Color(red: 10 / 255, green: 100 / 255, blue: 216 / 255)          // #0A64D8
 let secondaryText = Color(red: 110 / 255, green: 110 / 255, blue: 115 / 255)   // #6E6E73
 let bodyText = Color(red: 58 / 255, green: 58 / 255, blue: 60 / 255)           // #3A3A3C
+let titleText = Color(red: 29 / 255, green: 29 / 255, blue: 31 / 255)          // #1D1D1F
 
 struct RootView: View {
     @ObservedObject var model: BuilderModel
@@ -24,7 +25,8 @@ struct RootView: View {
         .padding(EdgeInsets(top: 28, leading: 40, bottom: 24, trailing: 40))
         .frame(width: 720, height: 468)
         .background(Color.white)
-        .foregroundColor(Color(red: 29 / 255, green: 29 / 255, blue: 31 / 255))
+        .foregroundColor(titleText)
+        .tint(accent)
     }
 }
 
@@ -257,7 +259,7 @@ struct BuildingView: View {
         VStack(alignment: .leading, spacing: 16) {
             Header(symbol: "gearshape.2", title: "Building the scanner app…",
                    subtitle: "This takes a few minutes. You can keep using your Mac.")
-            ProgressView(value: model.progress).progressViewStyle(.linear).accentColor(accent)
+            ProgressView(value: model.progress).progressViewStyle(.linear).tint(accent)
             Text(model.detail).font(.system(size: 12)).foregroundColor(secondaryText)
             if showDetails {
                 ScrollView {
@@ -304,7 +306,7 @@ struct StepRow: View {
             }
             .frame(width: 18, height: 18)
             Text(title).font(.system(size: 13, weight: state == 1 ? .semibold : .regular))
-                .foregroundColor(state == 0 ? secondaryText : .primary)
+                .foregroundColor(state == 0 ? secondaryText : titleText)
             Spacer()
             Text(trailing).font(.system(size: 12)).foregroundColor(secondaryText)
         }
