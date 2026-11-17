@@ -183,7 +183,9 @@ final class BuilderModel: ObservableObject {
         p.executableURL = URL(fileURLWithPath: dev + "/usr/bin/python3")
         p.arguments = ["-u", engine.appendingPathComponent("build.py").path] + args
         var env = ProcessInfo.processInfo.environment
-        env["PATH"] = dev + "/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+        // /usr/bin first: Apple's clang there finds the macOS SDK by itself (through xcrun)
+        env["PATH"] = "/usr/bin:/bin:/usr/sbin:/sbin:" + dev + "/usr/bin"
+        env["DEVELOPER_DIR"] = dev
         env["PYTHONDONTWRITEBYTECODE"] = "1"
         p.environment = env
         let pipe = Pipe()
