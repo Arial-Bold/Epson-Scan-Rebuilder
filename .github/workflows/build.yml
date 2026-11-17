@@ -14,7 +14,7 @@ permissions:
 
 jobs:
   build-builder:
-    runs-on: macos-14
+    runs-on: macos-latest      # GitHub's current Apple Silicon Mac
     steps:
       - uses: actions/checkout@v4
       # Apple's own Python (from the Command Line Tools), the one the builder uses on people's Macs
