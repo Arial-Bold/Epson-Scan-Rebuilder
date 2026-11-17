@@ -14,7 +14,7 @@ enum Stage: Equatable {
 }
 
 final class BuilderModel: ObservableObject {
-    static let downloadPage = URL(string: "https://epson.com/Support/Scanners/Perfection-Series/Epson-Perfection-V550-Photo/s/SPT_B11B210201")!
+    static let downloadPage = URL(string: "https://epson.com/Support/Scanners/Perfection-Series/Epson-Perfection-V550-Photo/s/SPT_B11B210201?review-filter=macOS+10.14.x")!
     static let steps = ["Opening the installer", "Reading Epson's files", "Converting Epson's code for Apple Silicon",
                         "Copying the windows, artwork and help", "Putting the app together"]
 
