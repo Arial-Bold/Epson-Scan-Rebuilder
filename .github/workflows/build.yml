@@ -1,0 +1,47 @@
+name: Build
+
+# Every push builds the builder on an Apple Silicon Mac and keeps the zip as a download on the run.
+# A tag like v1.0 also publishes it on the Releases page.
+on:
+  push:
+    branches: [main]
+    tags: ['v*']
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  check-engine:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.9'        # the Python that comes with Apple's Command Line Tools
+      - name: Engine scripts compile
+        run: python -m compileall -q engine
+      - name: Engine refuses a file that isn't Epson's installer
+        run: |
+          echo "not a disk image" > not-epson.pkg
+          python engine/build.py check not-epson.pkg | tee out.txt
+          grep -q "^CHECK wrong" out.txt
+
+  build-builder:
+    runs-on: macos-14
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build "Scanner App Builder.app"
+        run: sh build_builder.sh
+      - name: Keep the zip
+        uses: actions/upload-artifact@v4
+        with:
+          name: Scanner-App-Builder
+          path: build/Scanner App Builder.zip
+      - name: Publish on the Releases page
+        if: startsWith(github.ref, 'refs/tags/v')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: build/Scanner App Builder.zip
+          generate_release_notes: true
