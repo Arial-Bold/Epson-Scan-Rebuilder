@@ -16,7 +16,7 @@ jobs:
   build-builder:
     runs-on: macos-latest      # GitHub's current Apple Silicon Mac
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       # Apple's own Python (from the Command Line Tools), the one the builder uses on people's Macs
       - name: Engine scripts compile with Apple's Python
         run: |
@@ -31,7 +31,7 @@ jobs:
       - name: Build "Scanner App Builder.app"
         run: sh build_builder.sh
       - name: Keep the zip
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: Scanner-App-Builder
           path: build/Scanner App Builder.zip
