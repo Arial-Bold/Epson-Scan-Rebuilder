@@ -30,7 +30,8 @@ made on your Mac from the installer you download from Epson.
   [Epson's V550 support page](https://epson.com/Support/Scanners/Perfection-Series/Epson-Perfection-V550-Photo/s/SPT_B11B210201?review-filter=macOS+10.14.x)
   (Downloads › Scanner Driver and EPSON Scan Utility)
 - Apple's free **Command Line Tools**. The builder offers to install them if they're missing.
-- The **Epson Scanner ICA Driver**, installed, to scan with the finished app
+- The **Epson Scanner ICA Driver** 5.8.23 (`ESICA_v5_8_23_41_e.dmg`), installed, to scan with the
+  finished app. This is the version the app was made and tested with.
 
 ## How to use it
 
