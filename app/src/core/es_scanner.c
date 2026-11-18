@@ -408,16 +408,14 @@ static bool int_load(const char *path)
     }
     CFErrorRef cferr = NULL;
     if (!CFBundleLoadExecutableAndReturnError(g_int.bundle, &cferr)) {
-        fprintf(stderr, "error: can't load Epson plugin");
+        /* one message, so the app's alert shows macOS's reason too */
+        char msg[400] = "";
         if (cferr) {
             CFStringRef d = CFErrorCopyDescription(cferr);
-            char msg[512] = "";
-            CFStringGetCString(d, msg, sizeof msg, kCFStringEncodingUTF8);
-            fprintf(stderr, ": %s", msg);
-            CFRelease(d);
+            if (d) { CFStringGetCString(d, msg, sizeof msg, kCFStringEncodingUTF8); CFRelease(d); }
             CFRelease(cferr);
         }
-        fprintf(stderr, "\n");
+        fprintf(stderr, "error: can't load Epson plugin%s%s\n", msg[0] ? ": " : "", msg);
         return false;
     }
 #define SYM(field, type, name) \
